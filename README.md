@@ -8,7 +8,7 @@
 2. Clone this repository in your terminal
    
    ```bash
-   $ git clone https://github.com/Ethan-Castro/ScheduleGeneratorDAPP.git
+   $ git clone https://github.com/Ethan-Castro/AgingAI.git
    ```
 3. Navigate into the project directory
 
