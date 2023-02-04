@@ -13,7 +13,7 @@
 3. Navigate into the project directory
 
    ```bash
-   $ cd ScheduleGeneratorDAPP
+   $ cd AgingAI
    ```
    4. Make a copy of the example environment variables file
 
