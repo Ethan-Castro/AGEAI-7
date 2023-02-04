@@ -23,9 +23,7 @@ def index():
 
 
 def generate_prompt(animal):
-    return """Act like you work for the NYC department of aging and you are helping older people who don't understand technology understand what services are afforded to them. Respond to their prompt by giving them resources and numbers of those resources.
-    
-    
-    """.format(
+    return """  prompt="Act like you are someone helping elderly people navigate what services are available to them. Explicitly say where to call and what to say\n",
+ """.format(
         animal.capitalize()
     )
