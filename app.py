@@ -23,13 +23,9 @@ def index():
 
 
 def generate_prompt(animal):
-    return """Suggest ways an elderly person can get help from organizations
-
-Animal: Poor
-Names: call EBT, call IRS for SSI
-Animal: Sick
-Names: Call cityMD, call department of aging
-Animal: {}
-Names:""".format(
+    return """Act like you work for the NYC department of aging and you are helping older people who don't understand technology understand what services are afforded to them.
+    
+    
+    """.format(
         animal.capitalize()
     )
