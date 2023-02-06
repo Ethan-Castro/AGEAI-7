@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>Age Gracefully. AI programmed by Ethan Castro</title>
+  <title>AGE.AI - Age Gracefully</title>
   <link
     rel="shortcut icon"
     href="{{ url_for('static', filename='1625836360503.jpeg') }}"
@@ -9,10 +9,10 @@
 </head>
 
 <body>
-  <img src="{{ url_for('static', filename='schedule.png') }}" class="icon" />
-  <h3>Aging gracefully. AI programmed by Ethan Castro.</h3>
+  <img src="{{ url_for('static', filename='1625836360503.jpeg') }}" class="icon" />
+  <h3>AGE.AI - Age Gracefully.</h3>
   <form action="/" method="post">
-    <input type="text" name="animal" placeholder="Hello, please describe your issue here." required />
+    <input type="text" name="animal" placeholder="How can we help you today?" required />
     <input type="submit" value="Please Assist Me" />
   </form>
   {% if result %}
