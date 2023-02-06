@@ -8,12 +8,12 @@
 2. Clone this repository in your terminal
    
    ```bash
-   $ git clone https://github.com/Ethan-Castro/AGEAI-6.git
+   $ git clone https://github.com/Ethan-Castro/AGEAI-7.git
    ```
 3. Navigate into the project directory
 
    ```bash
-   $ cd AGEAI-6
+   $ cd AGEAI-7
    ```
    4. Make a copy of the example environment variables file
 
